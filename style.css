@@ -1,0 +1,85 @@
+/* --- THE MODERN VOID THEME COLOR PALETTE --- */
+body {
+    background-color: #121212 !important; /* Deep matte black */
+    color: #e0e0e0; /* Premium crisp white text */
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Navbar Tuning */
+.navbar {
+    background-color: #1a1a1a !important;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+/* Hero Section Transformation */
+header.bg-white {
+    background-color: #1a1a1a !important;
+    border-bottom: 1px solid #2d2d2d !important;
+}
+header h1 {
+    color: #ffffff !important;
+}
+header p {
+    color: #aaaaaa !important;
+}
+
+/* --- CUSTOM MICRO-INTERACTIONS & CARDS --- */
+.card {
+    background-color: #1a1a1a !important; /* Dark card background */
+    border: 1px solid #2d2d2d !important;
+    border-radius: 12px;
+    overflow: hidden;
+    /* Smooth transition for the hover animation lift */
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s ease;
+}
+
+.card-title {
+    color: #ffffff !important;
+}
+.card-text {
+    color: #aaaaaa !important;
+}
+
+/* Card Hover Micro-Interaction */
+.card:hover {
+    transform: translateY(-8px); /* Sleek lifting animation */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5), 0 0 15px rgba(255, 193, 7, 0.2) !important; /* Soft subtle gold glow */
+}
+
+/* Button Custom Overrides */
+.btn-warning {
+    background-color: #ffc107 !important;
+    border: none !important;
+    color: #121212 !important;
+    transition: all 0.2s ease;
+}
+
+/* Button Hover Micro-Interaction */
+.btn-warning:hover {
+    background-color: #ffe066 !important;
+    transform: scale(1.02); /* Slight scale expansion on hover */
+}
+
+/* Footer Accent */
+footer {
+    background-color: #121212 !important;
+    border-top: 1px solid #2d2d2d !important;
+}
+/* Force headers to be pure white and clear of Bootstrap overrides */
+h1, h2, .text-dark {
+    color: #ffffff !important;
+}
+
+/* Fix the section backgrounds so there are no white bands */
+body.bg-light, section, .container-fluid {
+    background-color: #121212 !important;
+}
+
+/* Elegant gold accent class for specific keywords */
+.brand-accent {
+    color: #ffc107 !important;
+}
+/* Fix the sub-headline color for better contrast */
+header p.lead, .text-muted {
+    color: #b3b3b3 !important;
+}
