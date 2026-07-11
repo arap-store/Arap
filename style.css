@@ -99,15 +99,3 @@ header p.lead, .text-muted {
   border-radius: 5px;
   text-decoration: none;
 }
-header {
-  position: fixed; /* Keeps it locked at the top */
-  top: 0;
-  width: 100%;
-  z-index: 1000; /* Ensures it stays above all other content */
-  background-color: #1a1a1a; /* Ensure it has a solid background color */
-}
-
-/* Add padding to the top of your main content so it isn't hidden by the header */
-body {
-  padding-top: 80px; 
-}
