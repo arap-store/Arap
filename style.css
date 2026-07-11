@@ -83,3 +83,31 @@ body.bg-light, section, .container-fluid {
 header p.lead, .text-muted {
     color: #b3b3b3 !important;
 }
+/* Target the placeholder text */
+::placeholder {
+  color: #a0a0a0; /* A soft, visible light grey */
+  opacity: 1;      /* Ensures the color shows up in all browsers */
+}
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* Hidden by default */
+  background-color: #ffc107; /* Matches your yellow theme */
+  color: #000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+header {
+  position: fixed; /* Keeps it locked at the top */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures it stays above all other content */
+  background-color: #1a1a1a; /* Ensure it has a solid background color */
+}
+
+/* Add padding to the top of your main content so it isn't hidden by the header */
+body {
+  padding-top: 80px; 
+}
